@@ -44,6 +44,8 @@ spring:
     serialization:
       indent-output: true
   cloud:
+    config:
+      fail-fast: true
     consul:
       config:
         fail-fast: false # if not in "prod" profile, do not force to use Spring Cloud Config
