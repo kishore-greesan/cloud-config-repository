@@ -31,8 +31,8 @@ spring:
 
       host: localhost
       port: 8500
-docker:
-  compose:
-    enabled: true
-    lifecycle-management: start-only
-    file: C:\\Users\\kishoregreesan.manoh\\Personal Workspace\\Jhipster\\user-service\\src\\main\\docker\\mysql.yml
+  docker:
+    compose:
+      enabled: true
+      lifecycle-management: start-only
+      file: C:\\Users\\kishoregreesan.manoh\\Personal Workspace\\Jhipster\\user-service\\src\\main\\docker\\mysql.yml
