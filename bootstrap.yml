@@ -35,4 +35,4 @@ spring:
     compose:
       enabled: true
       lifecycle-management: start-only
-      file: src/main/docker/mysql.yml
+      file: C:\Users\kishoregreesan.manoh\Personal Workspace\Jhipster\user-service\src\main\docker\mysql.yml
