@@ -13,7 +13,7 @@ spring:
     active: dev
   cloud:
     config:
-      uri: http://config-server:8888  # URL of the Config Server
+      uri: http://localhost:8888  # URL of the Config Server
       fail-fast: true  # Optional: fail the application startup if config server is not reachable
     consul:
       config:
