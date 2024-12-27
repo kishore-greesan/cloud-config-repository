@@ -109,11 +109,6 @@ spring:
       config:
         watch:
           enabled: false
-  docker:
-    compose:
-      enabled: true
-      lifecycle-management: start-only
-      file: C:\Users\kishoregreesan.manoh\Personal Workspace\Jhipster\user-service\src\main\docker\mysql.yml
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
     # Otherwise, it will be filled in by maven when building the JAR file
